@@ -1,4 +1,4 @@
-import { Scissors, Sparkles, Paintbrush, Foot, Droplet } from "lucide-react";
+import { Scissors, Sparkles, Paintbrush, Footprints, Droplet } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -25,7 +25,7 @@ const serviceCategories = {
     ],
   },
   nails: {
-    icon: <Foot className="h-8 w-8 text-primary" />,
+    icon: <Footprints className="h-8 w-8 text-primary" />,
     services: [
       { name: "Classic Manicure", price: "₹800", description: "Nail shaping, cuticle care, and polish.", image: "https://placehold.co/100x100.png", hint: "manicure nails" },
       { name: "Classic Pedicure", price: "₹1,000", description: "Relaxing foot soak, scrub, and polish.", image: "https://placehold.co/100x100.png", hint: "pedicure spa" },
