@@ -8,32 +8,38 @@ const specialOffers = [
   {
     title: "20% off on Hair Spa",
     description: "Revitalize your hair with our nourishing spa treatments. Offer valid for a limited time.",
-    image: "https://images.unsplash.com/photo-1552035338-43d8c2d2d147?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://placehold.co/600x400.png",
+    hint: "hair spa treatment"
   },
   {
     title: "Bridal Combo @ ₹25,000",
     description: "Look your absolute best on your special day with our all-inclusive bridal package.",
-    image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54049?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://placehold.co/600x400.png",
+    hint: "bride makeup"
   },
   {
     title: "Manicure + Pedicure Combo",
     description: "Get a classic manicure and pedicure combo for just ₹1,500. Perfect pampering!",
-    image: "https://images.unsplash.com/photo-1519415943484-2fa18734d217?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://placehold.co/600x400.png",
+    hint: "manicure pedicure"
   },
   {
     title: "Student Discount: 15% Off",
     description: "Show your student ID and get a flat 15% discount on all our services. T&C apply.",
-    image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://placehold.co/600x400.png",
+    hint: "happy students"
   },
   {
     title: "Festive Glow Package",
     description: "Get ready for the festive season with our glow package, including facial and detan.",
-    image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://placehold.co/600x400.png",
+    hint: "woman glowing skin"
   },
   {
     title: "Corporate Wellness Offer",
     description: "Special discounts for corporate clients. Contact us for bulk bookings and packages.",
-    image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://placehold.co/600x400.png",
+    hint: "corporate team"
   },
 ];
 
@@ -58,6 +64,7 @@ export default function OffersPage() {
                   width={600}
                   height={400}
                   className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105"
+                  data-ai-hint={offer.hint}
                 />
                 <div className="absolute top-4 right-4 bg-primary text-primary-foreground p-2 rounded-full shadow-lg">
                   <Ticket className="h-6 w-6" />

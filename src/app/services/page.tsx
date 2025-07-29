@@ -9,45 +9,45 @@ const serviceCategories = {
   hair: {
     icon: <Scissors className="h-8 w-8 text-primary" />,
     services: [
-      { name: "Women's Haircut", price: "₹1,200", description: "Styled cut, wash, and blow-dry.", image: "https://images.unsplash.com/photo-1596704017254-9b1210a83180?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { name: "Men's Haircut", price: "₹800", description: "Classic cut and styling.", image: "https://images.unsplash.com/photo-1621603595637-88204640d85a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { name: "Global Color", price: "₹4,500 onwards", description: "Full hair coloring with premium products.", image: "https://images.unsplash.com/photo-1599387821353-fb713437c19f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { name: "Hair Spa", price: "₹2,500", description: "Deep conditioning treatment for smooth hair.", image: "https://images.unsplash.com/photo-1552035338-43d8c2d2d147?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+      { name: "Women's Haircut", price: "₹1,200", description: "Styled cut, wash, and blow-dry.", image: "https://placehold.co/80x80.png", hint: "woman haircut" },
+      { name: "Men's Haircut", price: "₹800", description: "Classic cut and styling.", image: "https://placehold.co/80x80.png", hint: "man haircut" },
+      { name: "Global Color", price: "₹4,500 onwards", description: "Full hair coloring with premium products.", image: "https://placehold.co/80x80.png", hint: "hair color" },
+      { name: "Hair Spa", price: "₹2,500", description: "Deep conditioning treatment for smooth hair.", image: "https://placehold.co/80x80.png", hint: "hair spa" },
     ],
   },
   skin: {
     icon: <Sparkles className="h-8 w-8 text-primary" />,
     services: [
-      { name: "Glow Facial", price: "₹3,000", description: "A facial for instant radiance and glow.", image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { name: "Anti-Ageing Facial", price: "₹4,000", description: "Targets fine lines and wrinkles.", image: "https://images.unsplash.com/photo-1600334089648-b0d9d3028269?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { name: "Clean Up", price: "₹1,500", description: "Deep cleansing to remove impurities.", image: "https://images.unsplash.com/photo-1552693673-1bf958298935?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { name: "Detan Treatment", price: "₹2,000", description: "Removes tanning and evens skin tone.", image: "https://images.unsplash.com/photo-1561062233-1b9a209b5a4b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+      { name: "Glow Facial", price: "₹3,000", description: "A facial for instant radiance and glow.", image: "https://placehold.co/80x80.png", hint: "glow facial" },
+      { name: "Anti-Ageing Facial", price: "₹4,000", description: "Targets fine lines and wrinkles.", image: "https://placehold.co/80x80.png", hint: "anti-ageing" },
+      { name: "Clean Up", price: "₹1,500", description: "Deep cleansing to remove impurities.", image: "https://placehold.co/80x80.png", hint: "face cleaning" },
+      { name: "Detan Treatment", price: "₹2,000", description: "Removes tanning and evens skin tone.", image: "https://placehold.co/80x80.png", hint: "skin detan" },
     ],
   },
   nails: {
     icon: <Footprints className="h-8 w-8 text-primary" />,
     services: [
-      { name: "Classic Manicure", price: "₹800", description: "Nail shaping, cuticle care, and polish.", image: "https://images.unsplash.com/photo-1522338242285-157941b65460?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { name: "Classic Pedicure", price: "₹1,000", description: "Relaxing foot soak, scrub, and polish.", image: "https://images.unsplash.com/photo-1519415943484-2fa18734d217?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { name: "Gel Polish", price: "₹1,200", description: "Long-lasting gel nail polish application.", image: "https://images.unsplash.com/photo-1615886323620-f1c69b56f519?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { name: "Nail Art", price: "₹500 onwards", description: "Creative and custom nail designs.", image: "https://images.unsplash.com/photo-1604323990536-e5b13628461e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+      { name: "Classic Manicure", price: "₹800", description: "Nail shaping, cuticle care, and polish.", image: "https://placehold.co/80x80.png", hint: "manicure" },
+      { name: "Classic Pedicure", price: "₹1,000", description: "Relaxing foot soak, scrub, and polish.", image: "https://placehold.co/80x80.png", hint: "pedicure" },
+      { name: "Gel Polish", price: "₹1,200", description: "Long-lasting gel nail polish application.", image: "https://placehold.co/80x80.png", hint: "gel polish" },
+      { name: "Nail Art", price: "₹500 onwards", description: "Creative and custom nail designs.", image: "https://placehold.co/80x80.png", hint: "nail art" },
     ],
   },
   makeup: {
     icon: <Paintbrush className="h-8 w-8 text-primary" />,
     services: [
-      { name: "Party Makeup", price: "₹3,500", description: "Glamorous look for any occasion.", image: "https://images.unsplash.com/photo-1643185539123-28d65a82be16?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { name: "Bridal Makeup", price: "₹20,000", description: "Complete bridal makeup with HD finish.", image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54049?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { name: "Engagement Makeup", price: "₹10,000", description: "Elegant makeup for your special day.", image: "https://images.unsplash.com/photo-1616197541549-338a0b5b1b0d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+      { name: "Party Makeup", price: "₹3,500", description: "Glamorous look for any occasion.", image: "https://placehold.co/80x80.png", hint: "party makeup" },
+      { name: "Bridal Makeup", price: "₹20,000", description: "Complete bridal makeup with HD finish.", image: "https://placehold.co/80x80.png", hint: "bridal makeup" },
+      { name: "Engagement Makeup", price: "₹10,000", description: "Elegant makeup for your special day.", image: "https://placehold.co/80x80.png", hint: "engagement makeup" },
     ],
   },
   waxing: {
     icon: <Droplet className="h-8 w-8 text-primary" />,
     services: [
-      { name: "Full Arms", price: "₹500", description: "Smooth and hair-free arms.", image: "https://images.unsplash.com/photo-1580130281329-602d44321b16?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { name: "Full Legs", price: "₹800", description: "Get silky smooth legs.", image: "https://images.unsplash.com/photo-1619044873832-c6adff547b97?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { name: "Bikini Wax", price: "₹1,500", description: "Hygienic and professional bikini waxing.", image: "https://images.unsplash.com/photo-1571212284252-7c5f81419358?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { name: "Full Body Wax", price: "₹3,000", description: "Complete hair removal for the whole body.", image: "https://images.unsplash.com/photo-1512290923902-8a9f31c83656?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+      { name: "Full Arms", price: "₹500", description: "Smooth and hair-free arms.", image: "https://placehold.co/80x80.png", hint: "arm waxing" },
+      { name: "Full Legs", price: "₹800", description: "Get silky smooth legs.", image: "https://placehold.co/80x80.png", hint: "leg waxing" },
+      { name: "Bikini Wax", price: "₹1,500", description: "Hygienic and professional bikini waxing.", image: "https://placehold.co/80x80.png", hint: "body waxing" },
+      { name: "Full Body Wax", price: "₹3,000", description: "Complete hair removal for the whole body.", image: "https://placehold.co/80x80.png", hint: "woman body" },
     ],
   },
 };
@@ -81,7 +81,7 @@ export default function ServicesPage() {
                 {serviceCategories[key as ServiceCategoryKey].services.map((service) => (
                   <Card key={service.name} className="flex flex-col">
                     <CardHeader className="flex-row gap-4 items-start">
-                      <Image src={service.image} alt={service.name} width={80} height={80} className="rounded-md object-cover" />
+                      <Image src={service.image} alt={service.name} width={80} height={80} className="rounded-md object-cover" data-ai-hint={service.hint} />
                       <div>
                         <CardTitle className="font-headline text-xl">{service.name}</CardTitle>
                         <CardDescription className="mt-1">{service.description}</CardDescription>

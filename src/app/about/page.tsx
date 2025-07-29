@@ -4,10 +4,10 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const teamMembers = [
-  { name: "Alisha Verma", role: "Lead Stylist & Founder", image: "https://images.unsplash.com/photo-1596495578065-640863d01a2f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", hint: "woman portrait" },
-  { name: "Rohan Kapoor", role: "Senior Hairdresser", image: "https://images.unsplash.com/photo-1583391265517-25b914220b40?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", hint: "man portrait" },
-  { name: "Priya Singh", role: "Lead Esthetician", image: "https://images.unsplash.com/photo-1556229107-7d1c8f3041d7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", hint: "woman face" },
-  { name: "Sameer Khan", role: "Nail Art Specialist", image: "https://images.unsplash.com/photo-1621603595637-88204640d85a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", hint: "male model" },
+  { name: "Alisha Verma", role: "Lead Stylist & Founder", image: "https://placehold.co/400x400.png", hint: "woman portrait" },
+  { name: "Rohan Kapoor", role: "Senior Hairdresser", image: "https://placehold.co/400x400.png", hint: "man portrait" },
+  { name: "Priya Singh", role: "Lead Esthetician", image: "https://placehold.co/400x400.png", hint: "woman face" },
+  { name: "Sameer Khan", role: "Nail Art Specialist", image: "https://placehold.co/400x400.png", hint: "male model" },
 ];
 
 export default function AboutPage() {
@@ -26,7 +26,7 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="order-1 md:order-2 rounded-lg overflow-hidden shadow-lg">
-            <Image src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d884?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Luxurious salon interior" width={600} height={700} className="w-full h-full object-cover" />
+            <Image src="https://placehold.co/600x700.png" alt="Luxurious salon interior" width={600} height={700} className="w-full h-full object-cover" data-ai-hint="salon interior" />
           </div>
         </section>
 
@@ -77,7 +77,7 @@ export default function AboutPage() {
             {teamMembers.map((member) => (
               <Card key={member.name} className="text-center p-4">
                  <Avatar className="w-32 h-32 mx-auto shadow-md">
-                    <AvatarImage src={member.image} alt={member.name} />
+                    <AvatarImage src={member.image} alt={member.name} data-ai-hint={member.hint} />
                     <AvatarFallback>{member.name.substring(0, 2)}</AvatarFallback>
                 </Avatar>
                 <CardHeader>

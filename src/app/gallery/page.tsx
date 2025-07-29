@@ -5,18 +5,18 @@ import Image from "next/image";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 
 const galleryImages = [
-  { src: "https://images.unsplash.com/photo-1522335789203-aabd1fc54049?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Elegant bridal makeup" },
-  { src: "https://images.unsplash.com/photo-1522338242285-157941b65460?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Intricate nail art design" },
-  { src: "https://images.unsplash.com/photo-1596704017254-9b1210a83180?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Stylish modern haircut" },
-  { src: "https://images.unsplash.com/photo-1616197541549-338a0b5b1b0d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Close-up of a flawless makeup look" },
-  { src: "https://images.unsplash.com/photo-1599387821353-fb713437c19f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Beautiful balayage hair color" },
-  { src: "https://images.unsplash.com/photo-1519415943484-2fa18734d217?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Creative gel polish on nails" },
-  { src: "https://images.unsplash.com/photo-1597405494384-2139e6a03780?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Bride with a traditional look" },
-  { src: "https://images.unsplash.com/photo-1643185539123-28d65a82be16?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Stunning party makeup" },
-  { src: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "A relaxing spa environment" },
-  { src: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Client getting a facial treatment" },
-  { src: "https://images.unsplash.com/photo-1620021390433-718c94314782?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "A short and chic bob haircut" },
-  { src: "https://images.unsplash.com/photo-1604323990536-e5b13628461e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "French manicure with a twist" },
+  { src: "https://placehold.co/600x800.png", alt: "Elegant bridal makeup", hint: "bridal makeup" },
+  { src: "https://placehold.co/600x800.png", alt: "Intricate nail art design", hint: "nail art" },
+  { src: "https://placehold.co/600x800.png", alt: "Stylish modern haircut", hint: "modern haircut" },
+  { src: "https://placehold.co/600x800.png", alt: "Close-up of a flawless makeup look", hint: "flawless makeup" },
+  { src: "https://placehold.co/600x800.png", alt: "Beautiful balayage hair color", hint: "balayage hair" },
+  { src: "https://placehold.co/600x800.png", alt: "Creative gel polish on nails", hint: "gel polish" },
+  { src: "https://placehold.co/600x800.png", alt: "Bride with a traditional look", hint: "indian bride" },
+  { src: "https://placehold.co/600x800.png", alt: "Stunning party makeup", hint: "party makeup" },
+  { src: "https://placehold.co/600x800.png", alt: "A relaxing spa environment", hint: "spa environment" },
+  { src: "https://placehold.co/600x800.png", alt: "Client getting a facial treatment", hint: "facial treatment" },
+  { src: "https://placehold.co/600x800.png", alt: "A short and chic bob haircut", hint: "bob haircut" },
+  { src: "https://placehold.co/600x800.png", alt: "French manicure with a twist", hint: "french manicure" },
 ];
 
 export default function GalleryPage() {
@@ -45,6 +45,7 @@ export default function GalleryPage() {
                 width={600}
                 height={800}
                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                data-ai-hint={image.hint}
               />
               <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                 <span className="text-white font-bold text-lg text-center p-2">{image.alt}</span>

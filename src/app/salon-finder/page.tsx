@@ -11,21 +11,24 @@ const salons = [
     address: "123 MG Road, Bangalore, 560001",
     phone: "+91 80 1234 5678",
     hours: "10:00 AM - 9:00 PM",
-    image: "https://images.unsplash.com/photo-1599387877286-6fe185a623f4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://placehold.co/600x400.png",
+    hint: "modern salon"
   },
   {
     name: "Aura Spa - Uptown",
     address: "456 Indiranagar 100ft Road, Bangalore, 560038",
     phone: "+91 80 9876 5432",
     hours: "11:00 AM - 10:00 PM",
-    image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://placehold.co/600x400.png",
+    hint: "luxury spa"
   },
   {
     name: "Aura Express - Suburbs",
     address: "789 Whitefield Main Road, Bangalore, 560066",
     phone: "+91 80 1122 3344",
     hours: "10:00 AM - 8:00 PM",
-    image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d884?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://placehold.co/600x400.png",
+    hint: "cozy salon"
   },
 ];
 
@@ -65,7 +68,7 @@ export default function SalonFinderPage() {
           <div className="lg:col-span-1 space-y-6">
             {salons.map((salon, index) => (
               <Card key={index} className="overflow-hidden">
-                <Image src={salon.image} alt={salon.name} width={600} height={400} className="w-full h-40 object-cover" />
+                <Image src={salon.image} alt={salon.name} width={600} height={400} className="w-full h-40 object-cover" data-ai-hint={salon.hint} />
                 <CardHeader>
                   <CardTitle className="font-headline">{salon.name}</CardTitle>
                 </CardHeader>
