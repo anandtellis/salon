@@ -44,10 +44,10 @@ const serviceCategories = {
   waxing: {
     icon: <Droplet className="h-8 w-8 text-primary" />,
     services: [
-      { name: "Full Arms", price: "₹500", description: "Smooth and hair-free arms.", image: "https://images.unsplash.com/photo-1604374523749-7c8b0a7a3a98?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { name: "Full Legs", price: "₹800", description: "Get silky smooth legs.", image: "https://images.unsplash.com/photo-1522335787612-c2409545468d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { name: "Bikini Wax", price: "₹1,500", description: "Hygienic and professional bikini waxing.", image: "https://images.unsplash.com/photo-1544161515-cfd836b080e6?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { name: "Full Body Wax", price: "₹3,000", description: "Complete hair removal for the whole body.", image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d884?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+      { name: "Full Arms", price: "₹500", description: "Smooth and hair-free arms.", image: "https://images.unsplash.com/photo-1580130281329-602d44321b16?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+      { name: "Full Legs", price: "₹800", description: "Get silky smooth legs.", image: "https://images.unsplash.com/photo-1619044873832-c6adff547b97?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+      { name: "Bikini Wax", price: "₹1,500", description: "Hygienic and professional bikini waxing.", image: "https://images.unsplash.com/photo-1571212284252-7c5f81419358?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+      { name: "Full Body Wax", price: "₹3,000", description: "Complete hair removal for the whole body.", image: "https://images.unsplash.com/photo-1512290923902-8a9f31c83656?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
     ],
   },
 };
