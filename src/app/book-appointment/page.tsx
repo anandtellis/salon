@@ -68,12 +68,11 @@ export default function BookAppointmentPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="hidden lg:block">
             <Image 
-              src="https://placehold.co/800x1000.png"
+              src="https://images.unsplash.com/photo-1544161515-cfd836b080e6?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Woman relaxing at a spa"
               width={800}
               height={1000}
               className="rounded-lg shadow-xl object-cover h-full"
-              data-ai-hint="woman spa"
             />
           </div>
           <Card className="w-full">

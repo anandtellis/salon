@@ -11,24 +11,21 @@ const salons = [
     address: "123 MG Road, Bangalore, 560001",
     phone: "+91 80 1234 5678",
     hours: "10:00 AM - 9:00 PM",
-    image: "https://placehold.co/600x400.png",
-    hint: "modern salon"
+    image: "https://images.unsplash.com/photo-1599387877286-6fe185a623f4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     name: "Aura Spa - Uptown",
     address: "456 Indiranagar 100ft Road, Bangalore, 560038",
     phone: "+91 80 9876 5432",
     hours: "11:00 AM - 10:00 PM",
-    image: "https://placehold.co/600x400.png",
-    hint: "spa interior"
+    image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     name: "Aura Express - Suburbs",
     address: "789 Whitefield Main Road, Bangalore, 560066",
     phone: "+91 80 1122 3344",
     hours: "10:00 AM - 8:00 PM",
-    image: "https://placehold.co/600x400.png",
-    hint: "beauty salon"
+    image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d884?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 
@@ -60,7 +57,7 @@ export default function SalonFinderPage() {
           {/* Map Section */}
           <div className="lg:col-span-2 rounded-lg overflow-hidden shadow-lg h-96 lg:h-full">
             <div className="bg-muted w-full h-full flex items-center justify-center">
-              <p className="text-muted-foreground">Map Placeholder</p>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.001920338781!2d77.59456267579126!3d12.971598787344515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16708b3a5a7b%3A0x6b3b0bf3a31d6837!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1716969871661!5m2!1sen!2sin" width="100%" height="100%" style={{border:0}} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
 
@@ -68,7 +65,7 @@ export default function SalonFinderPage() {
           <div className="lg:col-span-1 space-y-6">
             {salons.map((salon, index) => (
               <Card key={index} className="overflow-hidden">
-                <Image src={salon.image} alt={salon.name} width={600} height={400} className="w-full h-40 object-cover" data-ai-hint={salon.hint} />
+                <Image src={salon.image} alt={salon.name} width={600} height={400} className="w-full h-40 object-cover" />
                 <CardHeader>
                   <CardTitle className="font-headline">{salon.name}</CardTitle>
                 </CardHeader>

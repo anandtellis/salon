@@ -126,7 +126,7 @@ export default function ContactPage() {
             </Card>
             <div className="rounded-lg overflow-hidden shadow-lg h-80">
               <div className="bg-muted w-full h-full flex items-center justify-center">
-                <p className="text-muted-foreground">Map Placeholder</p>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.001920338781!2d77.59456267579126!3d12.971598787344515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16708b3a5a7b%3A0x6b3b0bf3a31d6837!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1716969871661!5m2!1sen!2sin" width="100%" height="100%" style={{border:0}} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               </div>
             </div>
           </div>
