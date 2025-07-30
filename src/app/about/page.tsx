@@ -26,7 +26,7 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="order-1 md:order-2 rounded-lg overflow-hidden shadow-lg">
-            <Image src="https://placehold.co/600x700.png" alt="Luxurious salon interior" width={600} height={700} className="w-full h-full object-cover" data-ai-hint="salon interior" />
+            <Image src="https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyJTIwc2Fsb258ZW58MHx8fHwxNzUzODc0MjExfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Luxurious salon interior" width={600} height={700} className="w-full h-full object-cover" data-ai-hint="salon interior" />
           </div>
         </section>
 
