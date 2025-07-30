@@ -18,8 +18,8 @@ const services = [
   { name: "Haircut", image: "https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyY3V0fGVufDB8fHx8MTc1Mzg3MzA3Mnww&ixlib=rb-4.1.0&q=80&w=1080", hint: "stylish haircut" },
   { name: "Nails", image: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxuYWlsc3xlbnwwfHx8fDE3NTM4NzMxMjN8MA&ixlib=rb-4.1.0&q=80&w=1080", hint: "manicure nails" },
   { name: "Bridal", image: "https://images.unsplash.com/photo-1588842867976-fd084ca2c87b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxicmlkYWwlMjBtYWtldXB8ZW58MHx8fHwxNzUzODczMTU1fDA&ixlib=rb-4.1.0&q=80&w=1080", hint: "bridal makeup" },
-  { name: "Skin", image: "https://placehold.co/800x800.png", hint: "skin care" },
-  { name: "Makeup", image: "https://placehold.co/800x800.png", hint: "makeup brushes" },
+  { name: "Skin", image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMnx8c2tpbmNhcmV8ZW58MHx8fHwxNzUzODczMTkwfDA&ixlib=rb-4.1.0&q=80&w=1080", hint: "skin care" },
+  { name: "Makeup", image: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYWtldXB8ZW58MHx8fHwxNzUzODczMjM3fDA&ixlib=rb-4.1.0&q=80&w=1080", hint: "makeup brushes" },
 ];
 
 const offers = [
