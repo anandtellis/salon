@@ -29,7 +29,7 @@ const offers = [
 ];
 
 const testimonials = [
-  { name: "Priya Sharma", role: "Happy Customer", avatar: "https://placehold.co/100x100.png", hint: "woman portrait", text: "Aura Salon is my go-to place for all things beauty. The staff is incredibly talented and professional. I always leave feeling amazing!" },
+  { name: "Priya Sharma", role: "Happy Customer", avatar: "https://images.unsplash.com/photo-1543267570-95d78122e7e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMnx8aGFwcHklMjBmZW1hbGUlMjBjdXN0b21lcnxlbnwwfHx8fDE3NTM4NzMzNTF8MA&ixlib=rb-4.1.0&q=80&w=1080", hint: "woman portrait", text: "Aura Salon is my go-to place for all things beauty. The staff is incredibly talented and professional. I always leave feeling amazing!" },
   { name: "Anjali Mehta", role: "Loyal Client", avatar: "https://placehold.co/100x100.png", hint: "woman face", text: "The bridal makeup I got done here was flawless. It lasted the whole day and I got so many compliments. Highly recommend them!" },
   { name: "Rina Das", role: "Regular Visitor", avatar: "https://placehold.co/100x100.png", hint: "portrait smiling", text: "I love the calming atmosphere at Aura. It's a perfect escape from the city buzz. Their nail art is simply the best in town." },
   { name: "Sunita Rao", role: "New Customer", avatar: "https://placehold.co/100x100.png", hint: "person smiling", text: "First time at Aura and it was a fantastic experience. The haircut was exactly what I wanted. The stylist really listened to me." },
