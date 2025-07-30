@@ -7,7 +7,7 @@ const teamMembers = [
   { name: "Alisha Verma", role: "Lead Stylist & Founder", image: "https://images.unsplash.com/photo-1556229107-75702b812f1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMHN0eWxpc3R8ZW58MHx8fHwxNzUzODc0ODk1fDA&ixlib=rb-4.1.0&q=80&w=1080", hint: "woman stylist" },
   { name: "Rohan Kapoor", role: "Senior Hairdresser", image: "https://images.unsplash.com/photo-1599551848351-e1628c607a4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWxlJTIwaGFpcmRyZXNzZXJ8ZW58MHx8fHwxNzUzODc0OTE5fDA&ixlib=rb-4.1.0&q=80&w=1080", hint: "male hairdresser" },
   { name: "Priya Singh", role: "Lead Esthetician", image: "https://images.unsplash.com/photo-1557053910-d9eadeed1c58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMGZhY2V8ZW58MHx8fHwxNzUzODc0NDM4fDA&ixlib=rb-4.1.0&q=80&w=1080", hint: "woman face" },
-  { name: "Sameer Khan", role: "Nail Art Specialist", image: "https://images.unsplash.com/photo-1621612269255-b82d3cd4a8ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWxlJTIwbWFuaWN1cmlzdHxlbnwwfHx8fDE3NTM4NzQ5NDN8MA&ixlib=rb-4.1.0&q=80&w=1080", hint: "male manicurist" },
+  { name: "Sameer Khan", role: "Nail Art Specialist", image: "https://images.unsplash.com/photo-1621612269255-b82d3cd4a8ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWxlJTIwbWFuaWN1cmlzdHxlbnwwfHx8fDE3NTM4NzQ5NDN8MA&ixlib=rb-4.1.0&q=80&w=1080", hint: "male stylist" },
 ];
 
 export default function AboutPage() {
