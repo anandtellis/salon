@@ -68,7 +68,7 @@ export default function BookAppointmentPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="hidden lg:block">
             <Image 
-              src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1887&auto=format&fit=crop"
+              src="https://placehold.co/800x1000.png"
               alt="Woman relaxing at a spa"
               data-ai-hint="woman relaxing spa"
               width={800}
@@ -102,6 +102,7 @@ export default function BookAppointmentPage() {
                               <SelectItem value="pedicure">Pedicure</SelectItem>
                               <SelectItem value="beard-trim">Beard Trim</SelectItem>
                               <SelectItem value="shave">Shave</SelectItem>
+                              <SelectItem value="waxing">Waxing</SelectItem>
                             </SelectContent>
                           </Select>
                           <FormMessage />
