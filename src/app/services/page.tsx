@@ -1,4 +1,4 @@
-import { Scissors, Sparkles, Paintbrush, Footprints, Droplet, Layers, FlaskConical } from "lucide-react";
+import { Scissors, Sparkles, Paintbrush, Footprints, Droplet, Layers, FlaskConical, Gem } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -6,41 +6,49 @@ import Link from "next/link";
 import Image from "next/image";
 
 const serviceCategories = {
-  hair: {
+  'hair-cut-finish': {
     icon: <Scissors className="h-8 w-8 text-primary" />,
+    title: "Hair Cut & Finish",
     services: [
-      { name: "Hair Cut", price: "₹1,200", description: "Styled cut, wash, and blow-dry.", image: "https://placehold.co/80x80.png", hint: "woman haircut" },
-      { name: "Ironing", price: "₹800", description: "Get sleek, straight hair.", image: "https://placehold.co/80x80.png", hint: "hair straightening" },
-      { name: "Global Colouring", price: "₹4,500 onwards", description: "Full hair coloring with premium products.", image: "https://placehold.co/80x80.png", hint: "hair color" },
-      { name: "Blow Dry", price: "₹500", description: "A perfect blowout for any occasion.", image: "https://placehold.co/80x80.png", hint: "hair blowdry" },
-      { name: "Root Touch Up", price: "₹1,500", description: "Cover up those roots.", image: "https://placehold.co/80x80.png", hint: "hair roots" },
+      { name: "Cut and Hair Care", price: "₹1,200", description: "Precision haircut and premium hair care.", image: "https://placehold.co/80x80.png", hint: "woman haircut" },
       { name: "Shampoo & Conditioning", price: "₹600", description: "A relaxing hair wash and conditioning.", image: "https://placehold.co/80x80.png", hint: "hair wash" },
       { name: "Head Massage", price: "₹1,000", description: "A relaxing head massage to de-stress.", image: "https://placehold.co/80x80.png", hint: "head massage" },
-      { name: "Roller Setting", price: "₹1,200", description: "Get beautiful curls with roller setting.", image: "https://placehold.co/80x80.png", hint: "hair rollers" },
-      { name: "Oiling", price: "₹800", description: "Nourishing oil massage for your hair.", image: "https://placehold.co/80x80.png", hint: "hair oiling" },
+      { name: "Beard Styling", price: "₹600", description: "Style your beard to perfection.", image: "https://placehold.co/80x80.png", hint: "beard styling" },
+      { name: "Hair/Beard Colouring", price: "₹1,500", description: "Get a new look with our color experts.", image: "https://placehold.co/80x80.png", hint: "hair color" },
+    ],
+  },
+  'hair-colour': {
+    icon: <Paintbrush className="h-8 w-8 text-primary" />,
+    title: "Hair Colour",
+    services: [
+        { name: "Hair Colour (Ammonia & Ammonia Free)", price: "₹4,500", description: "Vibrant colors, gentle on your hair.", image: "https://placehold.co/80x80.png", hint: "hair color" },
+        { name: "Hi-Lites", price: "₹3,000", description: "Add dimension with beautiful highlights.", image: "https://placehold.co/80x80.png", hint: "hair highlights" },
+        { name: "Beard Colour", price: "₹1,000", description: "Color your beard to match your hair.", image: "https://placehold.co/80x80.png", hint: "beard color" },
     ],
   },
   'hair-texture': {
     icon: <Layers className="h-8 w-8 text-primary" />,
+    title: "Hair Texture",
     services: [
-        { name: "Rebonding", price: "₹6,000 onwards", description: "For straight, sleek hair.", image: "https://placehold.co/80x80.png", hint: "hair rebonding" },
-        { name: "Perming", price: "₹5,000 onwards", description: "Get natural-looking curls.", image: "https://placehold.co/80x80.png", hint: "hair perming" },
-        { name: "Keratin", price: "₹7,000 onwards", description: "Smooth, frizz-free hair.", image: "https://placehold.co/80x80.png", hint: "keratin treatment" },
-        { name: "Smoothening", price: "₹5,500 onwards", description: "For manageable, smooth hair.", image: "https://placehold.co/80x80.png", hint: "hair smoothening" },
+        { name: "Straightening", price: "₹5,500", description: "For manageable, smooth hair.", image: "https://placehold.co/80x80.png", hint: "hair smoothening" },
+        { name: "Smoothening", price: "₹5,500", description: "For manageable, smooth hair.", image: "https://placehold.co/80x80.png", hint: "hair smoothening" },
+        { name: "Rebonding", price: "₹6,000", description: "For straight, sleek hair.", image: "https://placehold.co/80x80.png", hint: "hair rebonding" },
+        { name: "Perming", price: "₹5,000", description: "Get natural-looking curls.", image: "https://placehold.co/80x80.png", hint: "hair perming" },
     ],
   },
   'hair-treatments': {
     icon: <FlaskConical className="h-8 w-8 text-primary" />,
+    title: "Hair Treatments",
     services: [
-        { name: "Spa Treatments", price: "₹2,500 onwards", description: "Nourishing hair spa for revitalization.", image: "https://placehold.co/80x80.png", hint: "hair spa" },
-        { name: "Volumizing", price: "₹2,000 onwards", description: "Add bounce and volume.", image: "https://placehold.co/80x80.png", hint: "voluminous hair" },
-        { name: "Advanced Hair Moisturising", price: "₹3,000", description: "Intense hydration for dry hair.", image: "https://placehold.co/80x80.png", hint: "hair hydration" },
-        { name: "Colour Protection", price: "₹2,800", description: "Maintain your hair color's vibrancy.", image: "https://placehold.co/80x80.png", hint: "color protection" },
+        { name: "Hair Spa", price: "₹2,500", description: "Nourishing hair spa for revitalization.", image: "https://placehold.co/80x80.png", hint: "hair spa" },
+        { name: "Advanced Moisturising", price: "₹3,000", description: "Intense hydration for dry hair.", image: "https://placehold.co/80x80.png", hint: "hair hydration" },
         { name: "Scalp Treatments", price: "₹2,200", description: "For a healthy, clean scalp.", image: "https://placehold.co/80x80.png", hint: "scalp treatment" },
+        { name: "Colour Protection", price: "₹2,800", description: "Maintain your hair color's vibrancy.", image: "https://placehold.co/80x80.png", hint: "color protection" },
     ],
   },
   skin: {
     icon: <Sparkles className="h-8 w-8 text-primary" />,
+    title: "Skin Care",
     services: [
       { name: "Clean Ups", price: "₹1,500", description: "Deep cleansing to remove impurities.", image: "https://placehold.co/80x80.png", hint: "face cleaning" },
       { name: "Facials", price: "₹3,000 onwards", description: "A facial for instant radiance and glow.", image: "https://placehold.co/80x80.png", hint: "glow facial" },
@@ -50,6 +58,7 @@ const serviceCategories = {
   },
   nails: {
     icon: <Footprints className="h-8 w-8 text-primary" />,
+    title: "Hands & Feet",
     services: [
       { name: "Manicure", price: "₹800", description: "Nail shaping, cuticle care, and polish.", image: "https://placehold.co/80x80.png", hint: "manicure" },
       { name: "Pedicure", price: "₹1,000", description: "Relaxing foot soak, scrub, and polish.", image: "https://placehold.co/80x80.png", hint: "pedicure" },
@@ -58,7 +67,8 @@ const serviceCategories = {
     ],
   },
   makeup: {
-    icon: <Paintbrush className="h-8 w-8 text-primary" />,
+    icon: <Gem className="h-8 w-8 text-primary" />,
+    title: "Makeup",
     services: [
       { name: "Party Makeup", price: "₹3,500", description: "Glamorous look for any occasion.", image: "https://placehold.co/80x80.png", hint: "party makeup" },
       { name: "Bridal Makeup", price: "₹20,000", description: "Complete bridal makeup with HD finish.", image: "https://placehold.co/80x80.png", hint: "bridal makeup" },
@@ -67,39 +77,12 @@ const serviceCategories = {
   },
   waxing: {
     icon: <Droplet className="h-8 w-8 text-primary" />,
+    title: "Waxing",
     services: [
       { name: "Full Arms", price: "₹500", description: "Smooth and hair-free arms.", image: "https://placehold.co/80x80.png", hint: "arm waxing" },
       { name: "Full Legs", price: "₹800", description: "Get silky smooth legs.", image: "https://placehold.co/80x80.png", hint: "leg waxing" },
       { name: "Bikini Wax", price: "₹1,500", description: "Hygienic and professional bikini waxing.", image: "https://placehold.co/80x80.png", hint: "body waxing" },
       { name: "Full Body Wax", price: "₹3,000", description: "Complete hair removal for the whole body.", image: "https://placehold.co/80x80.png", hint: "woman body" },
-    ],
-  },
-  beard: {
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="32"
-        height="32"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="h-8 w-8 text-primary"
-      >
-        <path d="M18 15l-6-6-6 6" />
-        <path d="M12 22V9" />
-        <path d="M12 9a3 3 0 00-3 3v2" />
-        <path d="M15 12v2a3 3 0 01-3 3" />
-      </svg>
-    ),
-    services: [
-      { name: "Beard Trim", price: "₹400", description: "Shape and trim your beard.", image: "https://placehold.co/80x80.png", hint: "beard trim" },
-      { name: "Beard Colour", price: "₹1,000", description: "Color your beard to match your hair.", image: "https://placehold.co/80x80.png", hint: "beard color" },
-      { name: "Beard Styling", price: "₹600", description: "Style your beard to perfection.", image: "https://placehold.co/80x80.png", hint: "beard styling" },
-      { name: "Shave", price: "₹300", description: "A clean and smooth shave.", image: "https://placehold.co/80x80.png", hint: "shave" },
-      { name: "Luxury Shave & Beard Spa", price: "₹1,500", description: "A complete pampering for your beard.", image: "https://placehold.co/80x80.png", hint: "luxury shave" },
     ],
   },
 };
@@ -117,12 +100,12 @@ export default function ServicesPage() {
           </p>
         </div>
 
-        <Tabs defaultValue="hair" className="w-full">
+        <Tabs defaultValue="hair-cut-finish" className="w-full">
           <TabsList className="grid w-full grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 bg-card p-2 rounded-lg h-auto">
             {Object.keys(serviceCategories).map((key) => (
               <TabsTrigger key={key} value={key} className="capitalize flex flex-col sm:flex-row items-center gap-2 h-full py-2">
                 {serviceCategories[key as ServiceCategoryKey].icon}
-                <span className="text-center sm:text-left">{key.replace('-', ' ')}</span>
+                <span className="text-center sm:text-left">{serviceCategories[key as ServiceCategoryKey].title}</span>
               </TabsTrigger>
             ))}
           </TabsList>
