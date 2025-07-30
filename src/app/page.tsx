@@ -23,9 +23,9 @@ const services = [
 ];
 
 const offers = [
-  { title: "20% Off Hair Spa", description: "Rejuvenate your hair with our premium spa treatment.", image: "https://placehold.co/600x400.png", hint: "hair spa" },
-  { title: "Bridal Combo @ INR 25,000", description: "Complete bridal package for your special day.", image: "https://placehold.co/600x400.png", hint: "bride" },
-  { title: "Flat 15% Off on Facials", description: "Get a glowing skin with our range of facials.", image: "https://placehold.co/600x400.png", hint: "facial treatment" },
+  { title: "20% Off Hair Spa", description: "Rejuvenate your hair with our premium spa treatment.", image: "https://images.unsplash.com/photo-1571454870646-86bf1e5b25ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoYWlyJTIwc3BhfGVufDB8fHx8MTc1Mzg3MzI5N3ww&ixlib=rb-4.1.0&q=80&w=1080", hint: "hair spa" },
+  { title: "Bridal Combo @ INR 25,000", description: "Complete bridal package for your special day.", image: "https://images.unsplash.com/photo-1684868265714-fd2300637c23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxicmlkYWwlMjBtYWtldXB8ZW58MHx8fHwxNzUzODczMTU1fDA&ixlib=rb-4.1.0&q=80&w=1080", hint: "bride" },
+  { title: "Flat 15% Off on Facials", description: "Get a glowing skin with our range of facials.", image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYWNpYWxzfGVufDB8fHx8MTc1Mzg3MzMyOHww&ixlib=rb-4.1.0&q=80&w=1080", hint: "facial treatment" },
 ];
 
 const testimonials = [
