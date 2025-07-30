@@ -23,7 +23,7 @@ const services = [
 
 const offers = [
   { title: "20% Off Hair Spa", description: "Rejuvenate your hair with our premium spa treatment.", image: "https://placehold.co/600x400.png", hint: "hair spa" },
-  { title: "Bridal Combo @ ₹25,000", description: "Complete bridal package for your special day.", image: "https://placehold.co/600x400.png", hint: "bride" },
+  { title: "Bridal Combo @ INR 25,000", description: "Complete bridal package for your special day.", image: "https://placehold.co/600x400.png", hint: "bride" },
   { title: "Flat 15% Off on Facials", description: "Get a glowing skin with our range of facials.", image: "https://placehold.co/600x400.png", hint: "facial treatment" },
 ];
 
@@ -39,7 +39,7 @@ export default function Home() {
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="relative h-[60vh] md:h-[80vh] w-full flex items-center justify-center text-center text-white">
-        <Image src="https://images.unsplash.com/photo-1599351431202-184519759412?q=80&w=1974&auto=format&fit=crop" alt="Modern and stylish salon interior" layout="fill" objectFit="cover" className="absolute z-0" data-ai-hint="salon interior" />
+        <Image src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?q=80&w=2070&auto=format&fit=crop" alt="Modern and stylish salon interior" layout="fill" objectFit="cover" className="absolute z-0" data-ai-hint="salon interior" />
         <div className="absolute inset-0 bg-black/50 z-10" />
         <div className="relative z-20 container mx-auto px-4">
           <h1 className="text-4xl md:text-6xl font-headline font-bold text-white drop-shadow-lg">

@@ -12,14 +12,14 @@ const specialOffers = [
     hint: "hair spa treatment"
   },
   {
-    title: "Bridal Combo @ ₹25,000",
+    title: "Bridal Combo @ INR 25,000",
     description: "Look your absolute best on your special day with our all-inclusive bridal package.",
     image: "https://placehold.co/600x400.png",
     hint: "bride makeup"
   },
   {
     title: "Manicure + Pedicure Combo",
-    description: "Get a classic manicure and pedicure combo for just ₹1,500. Perfect pampering!",
+    description: "Get a classic manicure and pedicure combo for just INR 1,500. Perfect pampering!",
     image: "https://placehold.co/600x400.png",
     hint: "manicure pedicure"
   },
