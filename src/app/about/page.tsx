@@ -6,7 +6,7 @@ import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 const teamMembers = [
   { name: "Alisha Verma", role: "Lead Stylist & Founder", image: "https://placehold.co/400x400.png", hint: "woman portrait" },
   { name: "Rohan Kapoor", role: "Senior Hairdresser", image: "https://placehold.co/400x400.png", hint: "man portrait" },
-  { name: "Priya Singh", role: "Lead Esthetician", image: "https://placehold.co/400x400.png", hint: "woman face" },
+  { name: "Priya Singh", role: "Lead Esthetician", image: "https://images.unsplash.com/photo-1557053910-d9eadeed1c58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMGZhY2V8ZW58MHx8fHwxNzUzODc0NDM4fDA&ixlib=rb-4.1.0&q=80&w=1080", hint: "woman face" },
   { name: "Sameer Khan", role: "Nail Art Specialist", image: "https://placehold.co/400x400.png", hint: "male model" },
 ];
 
