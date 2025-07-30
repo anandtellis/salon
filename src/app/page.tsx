@@ -30,9 +30,9 @@ const offers = [
 
 const testimonials = [
   { name: "Priya Sharma", role: "Happy Customer", avatar: "https://images.unsplash.com/photo-1543267570-95d78122e7e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMnx8aGFwcHklMjBmZW1hbGUlMjBjdXN0b21lcnxlbnwwfHx8fDE3NTM4NzMzNTF8MA&ixlib=rb-4.1.0&q=80&w=1080", hint: "woman portrait", text: "Aura Salon is my go-to place for all things beauty. The staff is incredibly talented and professional. I always leave feeling amazing!" },
-  { name: "Anjali Mehta", role: "Loyal Client", avatar: "https://placehold.co/100x100.png", hint: "woman face", text: "The bridal makeup I got done here was flawless. It lasted the whole day and I got so many compliments. Highly recommend them!" },
-  { name: "Rina Das", role: "Regular Visitor", avatar: "https://placehold.co/100x100.png", hint: "portrait smiling", text: "I love the calming atmosphere at Aura. It's a perfect escape from the city buzz. Their nail art is simply the best in town." },
-  { name: "Sunita Rao", role: "New Customer", avatar: "https://placehold.co/100x100.png", hint: "person smiling", text: "First time at Aura and it was a fantastic experience. The haircut was exactly what I wanted. The stylist really listened to me." },
+  { name: "Anjali Mehta", role: "Loyal Client", avatar: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21lbnxlbnwwfHx8fDE3NTM3ODk1Njh8MA&ixlib=rb-4.1.0&q=80&w=1080", hint: "woman face", text: "The bridal makeup I got done here was flawless. It lasted the whole day and I got so many compliments. Highly recommend them!" },
+  { name: "Rina Das", role: "Regular Visitor", avatar: "https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21lbnxlbnwwfHx8fDE3NTM3ODk1Njh8MA&ixlib=rb-4.1.0&q=80&w=1080", hint: "portrait smiling", text: "I love the calming atmosphere at Aura. It's a perfect escape from the city buzz. Their nail art is simply the best in town." },
+  { name: "Sunita Rao", role: "New Customer", avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMXx8d29tZW58ZW58MHx8fHwxNzUzNzg5NTY4fDA&ixlib=rb-4.1.0&q=80&w=1080", hint: "person smiling", text: "First time at Aura and it was a fantastic experience. The haircut was exactly what I wanted. The stylist really listened to me." },
 ];
 
 export default function Home() {
