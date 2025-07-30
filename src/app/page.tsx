@@ -14,7 +14,7 @@ import {
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const services = [
-  { name: "Haircut", image: "https://placehold.co/800x800.png", hint: "stylish haircut" },
+  { name: "Haircut", image: "https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyY3V0fGVufDB8fHx8MTc1Mzg3MzA3Mnww&ixlib=rb-4.1.0&q=80&w=1080", hint: "stylish haircut" },
   { name: "Nails", image: "https://placehold.co/800x800.png", hint: "manicure nails" },
   { name: "Bridal", image: "https://placehold.co/800x800.png", hint: "bridal makeup" },
   { name: "Skin", image: "https://placehold.co/800x800.png", hint: "skin care" },
