@@ -9,10 +9,15 @@ const serviceCategories = {
   hair: {
     icon: <Scissors className="h-8 w-8 text-primary" />,
     services: [
-      { name: "Women's Haircut", price: "₹1,200", description: "Styled cut, wash, and blow-dry.", image: "https://placehold.co/600x400.png", hint: "woman haircut" },
-      { name: "Men's Haircut", price: "₹800", description: "Classic cut and styling.", image: "https://placehold.co/600x400.png", hint: "man haircut" },
-      { name: "Global Color", price: "₹4,500 onwards", description: "Full hair coloring with premium products.", image: "https://placehold.co/600x400.png", hint: "hair color" },
-      { name: "Hair Spa", price: "₹2,500", description: "Deep conditioning treatment for smooth hair.", image: "https://placehold.co/600x400.png", hint: "hair spa" },
+      { name: "Hair Cut", price: "₹1,200", description: "Styled cut, wash, and blow-dry.", image: "https://placehold.co/600x400.png", hint: "woman haircut" },
+      { name: "Ironing", price: "₹800", description: "Get sleek, straight hair.", image: "https://placehold.co/600x400.png", hint: "hair straightening" },
+      { name: "Global Colouring", price: "₹4,500 onwards", description: "Full hair coloring with premium products.", image: "https://placehold.co/600x400.png", hint: "hair color" },
+      { name: "Blow Dry", price: "₹500", description: "A perfect blowout for any occasion.", image: "https://placehold.co/600x400.png", hint: "hair blowdry" },
+      { name: "Root Touch Up", price: "₹1,500", description: "Cover up those roots.", image: "https://placehold.co/600x400.png", hint: "hair roots" },
+      { name: "Shampoo & Conditioning", price: "₹600", description: "A relaxing hair wash and conditioning.", image: "https://placehold.co/600x400.png", hint: "hair wash" },
+      { name: "Head Massage", price: "₹1,000", description: "A relaxing head massage to de-stress.", image: "https://placehold.co/600x400.png", hint: "head massage" },
+      { name: "Roller Setting", price: "₹1,200", description: "Get beautiful curls with roller setting.", image: "https://placehold.co/600x400.png", hint: "hair rollers" },
+      { name: "Oiling", price: "₹800", description: "Nourishing oil massage for your hair.", image: "https://placehold.co/600x400.png", hint: "hair oiling" },
     ],
   },
   skin: {
