@@ -10,7 +10,7 @@ const serviceCategories = {
     icon: <Scissors className="h-8 w-8 text-primary" />,
     title: "Hair Cut & Finish",
     services: [
-      { name: "Hair Cut", price: "INR 1,000", description: "Precision haircut to suit your style.", image: "https://placehold.co/80x80.png", hint: "woman haircut" },
+      { name: "Hair Cut", price: "INR 1,000", description: "Precision haircut to suit your style.", image: "https://images.unsplash.com/photo-1595152772252-454817169007?q=80&w=80&h=80&fit=crop", hint: "woman haircut" },
       { name: "Ironing", price: "INR 800", description: "Sleek and straight hair styling.", image: "https://placehold.co/80x80.png", hint: "hair ironing" },
       { name: "Global Colouring", price: "INR 4,000", description: "Full hair coloring from root to tip.", image: "https://placehold.co/80x80.png", hint: "hair coloring" },
       { name: "Blow Dry", price: "INR 500", description: "Professional blowout for voluminous hair.", image: "https://placehold.co/80x80.png", hint: "hair blowdry" },
