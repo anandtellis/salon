@@ -23,17 +23,17 @@ const serviceCategories = {
   skin: {
     icon: <Sparkles className="h-8 w-8 text-primary" />,
     services: [
-      { name: "Glow Facial", price: "₹3,000", description: "A facial for instant radiance and glow.", image: "https://placehold.co/600x400.png", hint: "glow facial" },
-      { name: "Anti-Ageing Facial", price: "₹4,000", description: "Targets fine lines and wrinkles.", image: "https://placehold.co/600x400.png", hint: "anti-ageing" },
-      { name: "Clean Up", price: "₹1,500", description: "Deep cleansing to remove impurities.", image: "https://placehold.co/600x400.png", hint: "face cleaning" },
+      { name: "Clean Ups", price: "₹1,500", description: "Deep cleansing to remove impurities.", image: "https://placehold.co/600x400.png", hint: "face cleaning" },
+      { name: "Facials", price: "₹3,000 onwards", description: "A facial for instant radiance and glow.", image: "https://placehold.co/600x400.png", hint: "glow facial" },
+      { name: "Organic Treatments", price: "₹3,500", description: "Skin care with natural and organic products.", image: "https://placehold.co/600x400.png", hint: "organic skincare" },
       { name: "Detan Treatment", price: "₹2,000", description: "Removes tanning and evens skin tone.", image: "https://placehold.co/600x400.png", hint: "skin detan" },
     ],
   },
   nails: {
     icon: <Footprints className="h-8 w-8 text-primary" />,
     services: [
-      { name: "Classic Manicure", price: "₹800", description: "Nail shaping, cuticle care, and polish.", image: "https://placehold.co/600x400.png", hint: "manicure" },
-      { name: "Classic Pedicure", price: "₹1,000", description: "Relaxing foot soak, scrub, and polish.", image: "https://placehold.co/600x400.png", hint: "pedicure" },
+      { name: "Manicure", price: "₹800", description: "Nail shaping, cuticle care, and polish.", image: "https://placehold.co/600x400.png", hint: "manicure" },
+      { name: "Pedicure", price: "₹1,000", description: "Relaxing foot soak, scrub, and polish.", image: "https://placehold.co/600x400.png", hint: "pedicure" },
       { name: "Gel Polish", price: "₹1,200", description: "Long-lasting gel nail polish application.", image: "https://placehold.co/600x400.png", hint: "gel polish" },
       { name: "Nail Art", price: "₹500 onwards", description: "Creative and custom nail designs.", image: "https://placehold.co/600x400.png", hint: "nail art" },
     ],
